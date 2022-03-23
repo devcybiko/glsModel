@@ -1,0 +1,198 @@
+{
+    "model-viewer": {
+        "src": "./images/AT1K02_JOB_2.glb",
+        "id": "AT1K02_JOB_2",
+        "control-index": 1,
+        "div": "#AT1K02_JOB_2_div",
+        "alt": "alt text",
+        "camera-controls": "",
+        "ar": "",
+        "ar-status": ""
+    },
+    "mapping": {
+        "null": {
+            "action": "update",
+            "html": "<h2>You missed the target</h2>",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "error": {
+            "action": "error",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Default": {
+            "action": "update",
+            "html": "<h2>Try Again</h2>",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.001": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.001</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.002": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.002</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.003": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.003</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.004": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.004</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.005": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.005</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.006": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.006</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.007": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.007</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.008": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.008</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.009": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.009</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.010": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.010</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.011": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.011</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.012": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.012</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.013": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.013</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.014": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.014</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.015": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.015</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.016": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.016</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.017": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.017</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.018": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.018</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        },
+        "Material.019": {
+            "action": "update",
+            "html": "<h1>You Clicked: Material.019</h1>",
+            "color": "red",
+            "div": "#AT1K02_JOB_2_output"
+        }
+    },
+    "colors": {
+        "red": [
+            1,
+            0,
+            0,
+            1.0
+        ],
+        "orange": [
+            1,
+            0.45,
+            0.125,
+            1.0
+        ],
+        "yellow": [
+            1,
+            1,
+            0,
+            1.0
+        ],
+        "green": [
+            0,
+            1,
+            0,
+            1.0
+        ],
+        "blue": [
+            0,
+            0,
+            1,
+            1.0
+        ],
+        "cyan": [
+            0,
+            1,
+            1,
+            1.0
+        ],
+        "violet": [
+            1,
+            0,
+            1,
+            1.0
+        ],
+        "black": [
+            0,
+            0,
+            0,
+            1.0
+        ],
+        "white": [
+            1,
+            1,
+            1,
+            1.0
+        ]
+    }
+}

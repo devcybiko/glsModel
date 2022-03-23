@@ -1,0 +1,54 @@
+{
+    "model-viewer": {
+        "src": "./images/BoxAnimated.glb",
+        "id": "BoxAnimated",
+        "alt": "alt text",
+        "auto-rotate": "",
+        "camera-controls": "",
+        "ar": "",
+        "ar-status": "",
+        "control-index": 1,
+        "div": "#BoxAnimated"
+    },
+    "mapping": {
+        "null": {
+            "action": "update",
+            "html": "<h2>This isn't a properly formatted model :/</h2>",
+            "div": "#BoxAnimatedOutput"
+        },
+        "0": {
+            "action": "update",
+            "html": "<h2>Try Again</h2>",
+            "div": "#BoxAnimatedOutput"
+        },
+        "1": {
+            "action": "update",
+            "html": "<h1 style='color:red'>This is the top button.  It does nothing useful at all.</h1>",
+            "color": "red",
+            "div": "#BoxAnimatedOutput"
+        },
+        "0.99": {
+            "action": "update",
+            "html": "<h1 style='color:orange'>This is the middle button.  It screams as you touch it.</h1>",
+            "color": "orange",
+            "div": "#BoxAnimatedOutput"
+        },
+        "0.98": {
+            "action": "update",
+            "html": "<h1 style='color:cyan'>This is the bottom button.  It wants to be the top button.</h1>",
+            "color": "cyan",
+            "div": "#BoxAnimatedOutput"
+        }
+    },
+     "colors": {
+        "red": [1, 0, 0, 1.0],
+        "orange": [1, 0.45, 0.125, 1.0],
+        "yellow": [1, 1, 0, 1.0],
+        "green": [0, 1, 0, 1.0],
+        "blue": [0, 0, 1, 1.0],
+        "cyan": [0, 1, 1, 1.0],
+        "violet": [1, 0, 1, 1.0],
+        "black": [0, 0, 0, 1.0],
+        "white": [1, 1, 1, 1.0]
+     }
+}

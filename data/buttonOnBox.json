@@ -1,0 +1,59 @@
+{
+    "model-viewer": {
+        "src": "./images/buttonOnBox.glb",
+        "id": "gls-mv",
+        "cursor": "pointer",
+        "alt": "alt text",
+        "auto-rotate": "",
+        "camera-controls": "",
+        "ar": "",
+        "ar-status": "",
+        "control-index": 1,
+        "div": "#some-div-name"
+    },
+    "mapping": {
+        "error": {
+            "action": "error",
+             "div": "#the-output-div"
+        },
+        "null": {
+            "action": "update",
+            "html": "<h2>You missed the target</h2>",
+            "div": "#the-output-div"
+        },
+        "Material": {
+            "action": "update",
+            "html": "<h2>Try Again</h2>",
+            "div": "#the-output-div"
+        },
+        "Material.001": {
+            "action": "update",
+            "html": "<h1 style='color:red'>This is the top button.  It does nothing useful at all.</h1>",
+            "color": "red",
+            "div": "#the-output-div"
+        },
+        "Material.002": {
+            "action": "update",
+            "html": "<h1 style='color:orange'>This is the middle button.  It screams as you touch it.</h1>",
+            "color": "orange",
+            "div": "#the-output-div"
+        },
+        "Material.003": {
+            "action": "update",
+            "html": "<h1 style='color:cyan'>This is the bottom button.  It wants to be the top button.</h1>",
+            "color": "cyan",
+            "div": "#the-output-div"
+        }
+    },
+     "colors": {
+        "red": [1, 0, 0, 1.0],
+        "orange": [1, 0.45, 0.125, 1.0],
+        "yellow": [1, 1, 0, 1.0],
+        "green": [0, 1, 0, 1.0],
+        "blue": [0, 0, 1, 1.0],
+        "cyan": [0, 1, 1, 1.0],
+        "violet": [1, 0, 1, 1.0],
+        "black": [0, 0, 0, 1.0],
+        "white": [1, 1, 1, 1.0]
+     }
+}

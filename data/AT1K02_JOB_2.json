@@ -15,7 +15,7 @@
             "html": "<h2>You missed the target</h2>",
             "div": "#AT1K02_JOB_2_output"
         },
-        "error": {
+        "default": {
             "action": "error",
             "div": "#AT1K02_JOB_2_output"
         },

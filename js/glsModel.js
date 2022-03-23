@@ -73,7 +73,7 @@ glsModel = {
     actionGO(gls, modelViewer, material, secretTag, name) {
         let mapping = gls["mapping"];
         let action = mapping[name] || mapping["" + secretTag];
-        if (!action) action = mapping["error"];
+        if (!action) action = mapping["default"];
         let actionFunction = glsModel[action.action + "Action"];
         if (actionFunction) actionFunction({ modelViewer, material, gls, action, name });
     },

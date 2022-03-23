@@ -1,18 +1,18 @@
 {
     "model-viewer": {
         "src": "./images/buttonOnBox.glb",
-        "id": "gls-mv",
-        "cursor": "pointer",
+        "id": "buttonOnBox",
+        "div": "#some-div-name",
+        "control-index": 1,
+
         "alt": "alt text",
         "auto-rotate": "",
         "camera-controls": "",
         "ar": "",
-        "ar-status": "",
-        "control-index": 1,
-        "div": "#some-div-name"
+        "ar-status": ""
     },
     "mapping": {
-        "error": {
+        "default": {
             "action": "error",
              "div": "#the-output-div"
         },
